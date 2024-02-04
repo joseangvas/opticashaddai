@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+
+.acciones {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+
+  &--centrar {
+    // @extend .acciones;  // Es otra forma de hacer que el codigo de arriba se incluya aqui.
+    justify-content: center;
+  }
+
+  &__enlace {
+    color: v.$negro;
+    font-size: 1.7rem;
+    font-weight: v.$delgada;
+  }
+}
